@@ -1,0 +1,9 @@
+.group_name {
+	line-height: "0.9";
+	height: "min-content";
+	margin: "auto 0";
+
+	&:hover {
+		cursor: pointer;
+	}
+}

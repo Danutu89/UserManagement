@@ -1,0 +1,9 @@
+.main {
+	display: grid;
+	grid-auto-flow: column;
+	padding: 2rem 0;
+
+	@media (max-width: 900px) {
+		grid-auto-flow: row;
+	}
+}
