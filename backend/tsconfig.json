@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"lib": ["es2018"],
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"outDir": "dist"
+	},
+	"exclude": ["node_modules"],
+	"paths": {
+		"@entities/*": ["src/entities/*"],
+		"@controllers/*": ["src/controllers/*"]
+	},
+	"include": ["./src/**/*", "**/*.ts", "ormconfig.json"]
+}

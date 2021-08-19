@@ -1,0 +1,8 @@
+Dockerfile
+docker-compose.yml
+.venv
+.vscode
+node_modules
+.vscode
+package-lock.json
+dist

@@ -1,0 +1,23 @@
+{
+  "type": "postgres",
+  "host": "183.12.0.2",
+  "port": 5432,
+  "username": "postgres",
+  "password": "",
+  "database": "nestor",
+  "synchronize": true,
+  "entities": [
+    "src/entities/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
